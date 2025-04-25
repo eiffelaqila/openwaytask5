@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.NoSuchElementException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,10 +28,13 @@ public class CartPage {
 	}
 
 	public void verifyProductInCart(String productName) {
-		By product = By.partialLinkText(productName);
-		boolean isPresent = driver.findElements(product)
-                .stream().anyMatch(e -> e.getText().contains(productName));
-        Assert.assertTrue(isPresent, "❌ Product not found in cart!");
+		try {
+			By product = By.partialLinkText(productName);
+			boolean isPresent = driver.findElement(product).getText().contains(productName);
+	        Assert.assertTrue(isPresent, "❌ Product not found in cart!");
+		} catch (NoSuchElementException e) {
+			Assert.fail("❌ Product not found in cart!");
+		}
 	}
 
 	public void addToCart() {
