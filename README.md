@@ -3,6 +3,7 @@
 
 ## Introduction
 Developed an automated testing for Periplus Shopping Cart using Page Object Model (POM). Page Object Model is used for maintainability, readability, and reducing redundancy across test files.
+
 Author: Eiffel Aqila Amarendra
 
 ## Technologies Used
