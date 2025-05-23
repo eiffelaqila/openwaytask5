@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TaskTest">
+      <class name="testCases.TC005_ModifyCartQuantityTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="testTaskOpenWay"/>
+          <include name="testModifyCartQuantity"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- TaskTest -->
+      </class> <!-- testCases.TC005_ModifyCartQuantityTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

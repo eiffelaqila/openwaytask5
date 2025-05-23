@@ -1,7 +1,10 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class LoginPage {
 	private WebDriver driver;
@@ -20,5 +23,10 @@ public class LoginPage {
 		driver.findElement(email).sendKeys(emailStr);
 		driver.findElement(password).sendKeys(passwordStr);
 		driver.findElement(loginBtn).click();
+	}
+	
+	public boolean verifyLoggedIn() {
+		List<WebElement> signInElements = driver.findElements(By.linkText("Sign In"));
+	    return signInElements.isEmpty();
 	}
 }

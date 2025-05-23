@@ -28,6 +28,10 @@ public class ProductPage {
 		driver.findElement(product).click();
 	}
 
+	public void openProductByURL(String productURL) {
+		driver.get("https://www.periplus.com" + productURL);
+	}
+
 	public void addToCart() {
 		driver.findElement(addToCartButton).click();
 	}

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="4" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-23T15:43:30 WIB" name="Suite" finished-at="2025-05-23T15:46:19 WIB" duration-ms="169469">
+    <groups>
+    </groups>
+    <test started-at="2025-05-23T15:43:30 WIB" name="Test" finished-at="2025-05-23T15:46:19 WIB" duration-ms="169469">
+      <class name="testCases.TC007_EmptyCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC007_EmptyCartTest@61230f6a]" started-at="2025-05-23T15:45:56 WIB" name="setUp" finished-at="2025-05-23T15:46:04 WIB" duration-ms="8195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyCart()[pri:0, instance:testCases.TC007_EmptyCartTest@61230f6a]" started-at="2025-05-23T15:46:04 WIB" name="testEmptyCart" finished-at="2025-05-23T15:46:19 WIB" duration-ms="14569" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC007_EmptyCartTest.testEmptyCart(TC007_EmptyCartTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_EmptyCartTest@61230f6a]" started-at="2025-05-23T15:46:19 WIB" name="tearDown" finished-at="2025-05-23T15:46:19 WIB" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC007_EmptyCartTest -->
+      <class name="testCases.TC001_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC001_LoginTest@59d016c9]" started-at="2025-05-23T15:43:30 WIB" name="setUp" finished-at="2025-05-23T15:43:39 WIB" duration-ms="9127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC001_LoginTest@59d016c9]" started-at="2025-05-23T15:43:39 WIB" name="testLogin" finished-at="2025-05-23T15:43:47 WIB" duration-ms="8237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginTest@59d016c9]" started-at="2025-05-23T15:43:47 WIB" name="tearDown" finished-at="2025-05-23T15:43:48 WIB" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_LoginTest -->
+      <class name="testCases.TC003_AddSearchedProductToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@4b5d6a01]" started-at="2025-05-23T15:44:17 WIB" name="setUp" finished-at="2025-05-23T15:44:25 WIB" duration-ms="7977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSearchedProductToCart()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@4b5d6a01]" started-at="2025-05-23T15:44:25 WIB" name="testAddSearchedProductToCart" finished-at="2025-05-23T15:44:50 WIB" duration-ms="25046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSearchedProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@4b5d6a01]" started-at="2025-05-23T15:44:50 WIB" name="tearDown" finished-at="2025-05-23T15:44:50 WIB" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_AddSearchedProductToCartTest -->
+      <class name="testCases.TC005_ModifyCartQuantityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@3c419631]" started-at="2025-05-23T15:45:11 WIB" name="setUp" finished-at="2025-05-23T15:45:19 WIB" duration-ms="7593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testModifyCartQuantity()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@3c419631]" started-at="2025-05-23T15:45:19 WIB" name="testModifyCartQuantity" finished-at="2025-05-23T15:45:32 WIB" duration-ms="13269" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC005_ModifyCartQuantityTest.testModifyCartQuantity(TC005_ModifyCartQuantityTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifyCartQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@3c419631]" started-at="2025-05-23T15:45:32 WIB" name="tearDown" finished-at="2025-05-23T15:45:32 WIB" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_ModifyCartQuantityTest -->
+      <class name="testCases.TC004_CartTotalCalculationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@4a22f9e2]" started-at="2025-05-23T15:44:50 WIB" name="setUp" finished-at="2025-05-23T15:44:58 WIB" duration-ms="7623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartTotalCalculation()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@4a22f9e2]" started-at="2025-05-23T15:44:58 WIB" name="testCartTotalCalculation" finished-at="2025-05-23T15:45:11 WIB" duration-ms="12988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartTotalCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@4a22f9e2]" started-at="2025-05-23T15:45:11 WIB" name="tearDown" finished-at="2025-05-23T15:45:11 WIB" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_CartTotalCalculationTest -->
+      <class name="testCases.TC002_AddProductToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC002_AddProductToCartTest@3d680b5a]" started-at="2025-05-23T15:43:48 WIB" name="setUp" finished-at="2025-05-23T15:43:56 WIB" duration-ms="7901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:testCases.TC002_AddProductToCartTest@3d680b5a]" started-at="2025-05-23T15:43:56 WIB" name="testAddProductToCart" finished-at="2025-05-23T15:44:16 WIB" duration-ms="20594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_AddProductToCartTest@3d680b5a]" started-at="2025-05-23T15:44:16 WIB" name="tearDown" finished-at="2025-05-23T15:44:17 WIB" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_AddProductToCartTest -->
+      <class name="testCases.TC006_RemoveProductFromCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@418e7838]" started-at="2025-05-23T15:45:32 WIB" name="setUp" finished-at="2025-05-23T15:45:52 WIB" duration-ms="19397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCar()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@418e7838]" started-at="2025-05-23T15:45:52 WIB" name="testRemoveProductFromCar" finished-at="2025-05-23T15:45:56 WIB" duration-ms="4305" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Product exist or total is not correct]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Product exist or total is not correct
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC006_RemoveProductFromCartTest.testRemoveProductFromCar(TC006_RemoveProductFromCartTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@418e7838]" started-at="2025-05-23T15:45:56 WIB" name="tearDown" finished-at="2025-05-23T15:45:56 WIB" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_RemoveProductFromCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

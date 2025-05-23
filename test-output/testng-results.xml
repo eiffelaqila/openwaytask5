@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-25T21:24:57 WIB" name="Default suite" finished-at="2025-04-25T21:25:27 WIB" duration-ms="29471">
+  <suite started-at="2025-05-23T16:13:11 WIB" name="Suite" finished-at="2025-05-23T16:16:03 WIB" duration-ms="172508">
     <groups>
     </groups>
-    <test started-at="2025-04-25T21:24:57 WIB" name="Default test" finished-at="2025-04-25T21:25:27 WIB" duration-ms="29471">
-      <class name="TaskTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TaskTest@15ff3e9e]" started-at="2025-04-25T21:24:58 WIB" name="setUp" finished-at="2025-04-25T21:25:05 WIB" duration-ms="7656" status="PASS">
+    <test started-at="2025-05-23T16:13:11 WIB" name="Test" finished-at="2025-05-23T16:16:03 WIB" duration-ms="172508">
+      <class name="testCases.TC007_EmptyCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC007_EmptyCartTest@49ec71f8]" started-at="2025-05-23T16:15:42 WIB" name="setUp" finished-at="2025-05-23T16:15:50 WIB" duration-ms="7534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTaskOpenWay()[pri:0, instance:TaskTest@15ff3e9e]" started-at="2025-04-25T21:25:05 WIB" name="testTaskOpenWay" finished-at="2025-04-25T21:25:27 WIB" duration-ms="21366" status="PASS">
+        <test-method signature="testEmptyCart()[pri:0, instance:testCases.TC007_EmptyCartTest@49ec71f8]" started-at="2025-05-23T16:15:50 WIB" name="testEmptyCart" finished-at="2025-05-23T16:16:03 WIB" duration-ms="13003" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTaskOpenWay -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TaskTest@15ff3e9e]" started-at="2025-04-25T21:25:27 WIB" name="tearDown" finished-at="2025-04-25T21:25:27 WIB" duration-ms="395" status="PASS">
+        </test-method> <!-- testEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_EmptyCartTest@49ec71f8]" started-at="2025-05-23T16:16:03 WIB" name="tearDown" finished-at="2025-05-23T16:16:03 WIB" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TaskTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.TC007_EmptyCartTest -->
+      <class name="testCases.TC001_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC001_LoginTest@3bb9a3ff]" started-at="2025-05-23T16:13:11 WIB" name="setUp" finished-at="2025-05-23T16:13:20 WIB" duration-ms="9500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC001_LoginTest@3bb9a3ff]" started-at="2025-05-23T16:13:20 WIB" name="testLogin" finished-at="2025-05-23T16:13:28 WIB" duration-ms="7398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_LoginTest@3bb9a3ff]" started-at="2025-05-23T16:13:28 WIB" name="tearDown" finished-at="2025-05-23T16:13:28 WIB" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_LoginTest -->
+      <class name="testCases.TC003_AddSearchedProductToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@1189dd52]" started-at="2025-05-23T16:13:57 WIB" name="setUp" finished-at="2025-05-23T16:14:06 WIB" duration-ms="8389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSearchedProductToCart()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@1189dd52]" started-at="2025-05-23T16:14:06 WIB" name="testAddSearchedProductToCart" finished-at="2025-05-23T16:14:33 WIB" duration-ms="26924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSearchedProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_AddSearchedProductToCartTest@1189dd52]" started-at="2025-05-23T16:14:33 WIB" name="tearDown" finished-at="2025-05-23T16:14:33 WIB" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_AddSearchedProductToCartTest -->
+      <class name="testCases.TC005_ModifyCartQuantityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@564fabc8]" started-at="2025-05-23T16:14:54 WIB" name="setUp" finished-at="2025-05-23T16:15:03 WIB" duration-ms="8724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testModifyCartQuantity()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@564fabc8]" started-at="2025-05-23T16:15:03 WIB" name="testModifyCartQuantity" finished-at="2025-05-23T16:15:20 WIB" duration-ms="17251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModifyCartQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_ModifyCartQuantityTest@564fabc8]" started-at="2025-05-23T16:15:20 WIB" name="tearDown" finished-at="2025-05-23T16:15:20 WIB" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_ModifyCartQuantityTest -->
+      <class name="testCases.TC004_CartTotalCalculationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@36bc55de]" started-at="2025-05-23T16:14:33 WIB" name="setUp" finished-at="2025-05-23T16:14:42 WIB" duration-ms="8811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartTotalCalculation()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@36bc55de]" started-at="2025-05-23T16:14:42 WIB" name="testCartTotalCalculation" finished-at="2025-05-23T16:14:54 WIB" duration-ms="11547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartTotalCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_CartTotalCalculationTest@36bc55de]" started-at="2025-05-23T16:14:54 WIB" name="tearDown" finished-at="2025-05-23T16:14:54 WIB" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_CartTotalCalculationTest -->
+      <class name="testCases.TC002_AddProductToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC002_AddProductToCartTest@7e07db1f]" started-at="2025-05-23T16:13:28 WIB" name="setUp" finished-at="2025-05-23T16:13:36 WIB" duration-ms="8397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProductToCart()[pri:0, instance:testCases.TC002_AddProductToCartTest@7e07db1f]" started-at="2025-05-23T16:13:36 WIB" name="testAddProductToCart" finished-at="2025-05-23T16:13:57 WIB" duration-ms="20501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_AddProductToCartTest@7e07db1f]" started-at="2025-05-23T16:13:57 WIB" name="tearDown" finished-at="2025-05-23T16:13:57 WIB" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_AddProductToCartTest -->
+      <class name="testCases.TC006_RemoveProductFromCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@16d04d3d]" started-at="2025-05-23T16:15:20 WIB" name="setUp" finished-at="2025-05-23T16:15:28 WIB" duration-ms="7919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProductFromCar()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@16d04d3d]" started-at="2025-05-23T16:15:28 WIB" name="testRemoveProductFromCar" finished-at="2025-05-23T16:15:42 WIB" duration-ms="13622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProductFromCar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_RemoveProductFromCartTest@16d04d3d]" started-at="2025-05-23T16:15:42 WIB" name="tearDown" finished-at="2025-05-23T16:15:42 WIB" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC006_RemoveProductFromCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC006_RemoveProductFromCartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testRemoveProductFromCar"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC006_RemoveProductFromCartTest -->
+      <class name="testCases.TC007_EmptyCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testEmptyCart"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC007_EmptyCartTest -->
+      <class name="testCases.TC005_ModifyCartQuantityTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testModifyCartQuantity"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.TC005_ModifyCartQuantityTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
